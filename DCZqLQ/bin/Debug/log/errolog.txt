@@ -1,0 +1,1061 @@
+导出数据开始时间_2014-10-31 10:27:04
+导出数据开始时间_2015-06-30 14:09:58
+2015-06-30 14:10:13  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:11:13
+2015-06-30 14:11:13  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:15:45
+2015-06-30 14:15:46  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:16:22
+2015-06-30 14:16:37  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:17:37
+2015-06-30 14:17:37  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:17:48
+2015-06-30 14:17:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:18:37
+2015-06-30 14:18:37  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:18:48
+2015-06-30 14:18:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:19:48
+2015-06-30 14:19:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:19:55
+导出数据开始时间_2015-06-30 14:20:48
+2015-06-30 14:20:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:21:48
+2015-06-30 14:21:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:22:06
+2015-06-30 14:22:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:22:48
+2015-06-30 14:22:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:23:06
+2015-06-30 14:23:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:23:48
+2015-06-30 14:23:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:24:06
+2015-06-30 14:24:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:24:48
+2015-06-30 14:24:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:25:06
+2015-06-30 14:25:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:25:48
+2015-06-30 14:25:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:26:06
+2015-06-30 14:26:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:26:48
+2015-06-30 14:26:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:27:06
+2015-06-30 14:27:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:27:48
+2015-06-30 14:27:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:28:06
+2015-06-30 14:28:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:28:48
+2015-06-30 14:28:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:29:06
+2015-06-30 14:29:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:29:48
+2015-06-30 14:29:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:30:06
+2015-06-30 14:30:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:30:48
+2015-06-30 14:30:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:31:06
+2015-06-30 14:31:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:31:48
+2015-06-30 14:31:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:32:06
+2015-06-30 14:32:06  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:32:48
+2015-06-30 14:32:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:33:07
+2015-06-30 14:33:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:33:48
+2015-06-30 14:33:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:34:07
+2015-06-30 14:34:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:34:48
+2015-06-30 14:34:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:35:07
+2015-06-30 14:35:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:35:48
+2015-06-30 14:35:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:36:07
+2015-06-30 14:36:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:36:48
+2015-06-30 14:36:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:37:07
+2015-06-30 14:37:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:37:48
+2015-06-30 14:37:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:38:07
+2015-06-30 14:38:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:38:48
+2015-06-30 14:38:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:39:07
+2015-06-30 14:39:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:39:48
+2015-06-30 14:39:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:40:07
+2015-06-30 14:40:07  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:40:48
+2015-06-30 14:40:48  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:41:49
+2015-06-30 14:41:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:42:49
+2015-06-30 14:42:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:43:49
+2015-06-30 14:43:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:44:49
+2015-06-30 14:44:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:45:49
+2015-06-30 14:45:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:46:49
+2015-06-30 14:46:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-06-30 14:47:49
+2015-06-30 14:47:49  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcel() 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 70
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具\DCZqLQ\AutoExportExcel.cs:行号 34
+导出数据开始时间_2015-07-02 09:20:18
+2015-07-02 09:20:28  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcelOfWorkShop() 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\DCZqLQ\AutoExportExcel.cs:行号 73
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\DCZqLQ\AutoExportExcel.cs:行号 35
+导出数据开始时间_2015-07-02 09:21:36
+2015-07-02 09:21:36  导出数据异常:System.InvalidOperationException: 未在本地计算机上注册“Microsoft.Jet.OLEDB.4.0”提供程序。
+   在 System.Data.OleDb.OleDbServicesWrapper.GetDataSource(OleDbConnectionString constr, DataSourceWrapper& datasrcWrapper)
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcelOfWorkShop() 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\DCZqLQ\AutoExportExcel.cs:行号 73
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\DCZqLQ\AutoExportExcel.cs:行号 35
+导出数据开始时间_2015-07-02 09:22:24
+导出数据开始时间_2015-07-24 20:40:09
+导出数据开始时间_2015-07-24 20:40:39
+2015-07-24 20:40:55  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql, IDataParameter[] cmdParam)
+   在 FI.DataAccess.LqImportDac.GetMcnDataGatherAll(String strSdt, String strEdt) 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\KQDataAccess\LqImportDac.cs:行号 477
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ToExcelOfWorkShop() 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\DCZqLQ\AutoExportExcel.cs:行号 71
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 C:\Users\lhj\Desktop\功能点配置工具 - 副本\DCZqLQ\AutoExportExcel.cs:行号 35
+导出数据开始时间_2015-07-24 20:40:56
+导出数据开始时间_2015-08-26 11:18:07
+2015-08-26 11:18:09  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:19:51
+2015-08-26 11:19:53  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:24:53
+导出数据开始时间_2015-08-26 11:28:12
+2015-08-26 11:28:14  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:29:38
+2015-08-26 11:29:40  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:30:16
+2015-08-26 11:30:16  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:33:08
+2015-08-26 11:33:08  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:34:11
+2015-08-26 11:34:11  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 11:56:29
+2015-08-26 11:56:29  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:05:52
+2015-08-26 12:05:52  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:15:46
+2015-08-26 12:15:46  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:16:57
+2015-08-26 12:16:58  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:21:09
+2015-08-26 12:21:09  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:22:04
+2015-08-26 12:22:04  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:22:39
+2015-08-26 12:22:39  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:24:04
+2015-08-26 12:24:04  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:27:30
+2015-08-26 12:27:31  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:30:52
+2015-08-26 12:30:52  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:31:40
+2015-08-26 12:31:40  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:33:25
+2015-08-26 12:33:25  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:34:20
+2015-08-26 12:34:20  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:52:23
+2015-08-26 12:52:23  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:55:42
+2015-08-26 12:55:42  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:58:09
+2015-08-26 12:58:09  导出数据异常:KY.AP.DataServices.DataServiceException: 连接信息未设置
+   在 KY.AP.DataServices.ConnectionInfoService.GetSessionConnectString()
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetLedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\KQDataAccess\LqImportDac.cs:行号 533
+   在 KY.Fi.DCZqLQ.AutoExportExcel.LedInfo(String sht) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 830
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 144
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:59:15
+2015-08-26 12:59:15  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 12:59:36
+2015-08-26 12:59:36  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:18:43
+2015-08-26 13:18:45  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:19:05
+2015-08-26 13:19:05  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:20:12
+2015-08-26 13:20:12  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:20:37
+2015-08-26 13:20:37  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:20:56
+2015-08-26 13:20:56  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:21:14
+2015-08-26 13:21:14  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:22:39
+2015-08-26 13:22:39  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:23:08
+2015-08-26 13:23:08  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:23:29
+2015-08-26 13:23:29  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:32:16
+2015-08-26 13:32:16  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:32:28
+2015-08-26 13:32:28  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:32:47
+2015-08-26 13:32:47  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:33:10
+2015-08-26 13:33:10  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:33:23
+2015-08-26 13:33:23  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:38:37
+2015-08-26 13:38:38  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:39:06
+2015-08-26 13:39:06  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:40:59
+2015-08-26 13:40:59  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:42:03
+2015-08-26 13:42:03  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:42:48
+2015-08-26 13:42:48  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:43:09
+2015-08-26 13:43:09  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:45:13
+2015-08-26 13:45:13  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:45:59
+2015-08-26 13:45:59  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:46:35
+2015-08-26 13:46:35  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:46:50
+2015-08-26 13:46:51  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:47:22
+2015-08-26 13:47:22  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:49:31
+2015-08-26 13:49:31  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:49:55
+2015-08-26 13:49:55  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:50:18
+2015-08-26 13:50:19  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:50:38
+2015-08-26 13:50:39  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:51:16
+2015-08-26 13:51:16  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:51:34
+2015-08-26 13:51:34  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 13:53:41
+2015-08-26 13:53:42  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 870
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowWorkShop() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 153
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 101
+导出数据开始时间_2015-08-26 14:09:35
+导出数据开始时间_2015-08-26 16:11:37
+2015-08-26 16:12:42  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 938
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowZJS() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 297
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 111
+导出数据开始时间_2015-08-26 16:13:05
+2015-08-26 16:13:06  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 938
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowZWS() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 339
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 114
+导出数据开始时间_2015-08-26 16:14:30
+2015-08-26 16:15:07  导出数据异常:System.BadImageFormatException: 试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.User_AddProgram(Int32 CardNum, Boolean bWaitToEnd, Int32 iPlayTime)
+   在 KY.Fi.DCZqLQ.AutoExportExcel.addPro(Int32& g_iProgramIndex, Int32 g_iCardNum) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 938
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowZWS() 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 339
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 c:\Users\QYK\Desktop\功能点配置工具 - 车间现场\DCZqLQ\AutoExportExcel.cs:行号 114
+导出数据开始时间_2015-08-26 16:17:16
+导出数据开始时间_2015-08-26 16:20:44
+导出数据开始时间_2015-08-26 16:21:37
+导出数据开始时间_2015-08-26 16:23:33
+导出数据开始时间_2015-08-26 16:24:59
+导出数据开始时间_2015-08-26 16:35:37
+导出数据开始时间_2015-08-26 16:37:05

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FD08D9CE-2003-4210-AB1B-6169013D9D58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KY.Fi.DCZqLQ</RootNamespace>
+    <AssemblyName>KY.Fi.DCZqLQ</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\..\Aspose.Cells 8.3\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="KY.AP.DataServices, Version=2.2007.5.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Public\SysDll\KY.AP.DataServices.dll</HintPath>
+    </Reference>
+    <Reference Include="KY.AP.Kernel, Version=2.2007.5.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Public\SysDll\KY.AP.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="KY.AP.Kernel.Remoting, Version=2.2007.5.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Public\SysDll\KY.AP.Kernel.Remoting.dll</HintPath>
+    </Reference>
+    <Reference Include="KY.Data.DB.SqlClient, Version=2.2007.5.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Public\SysDll\KY.Data.DB.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoExportExcel.cs" />
+    <Compile Include="DCZqIOMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DCZqIOMain.Designer.cs">
+      <DependentUpon>DCZqIOMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EQ2008_DataStruct.cs" />
+    <Compile Include="FileINIOpr.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DCZqIOMain.resx">
+      <DependentUpon>DCZqIOMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SysSet.resx">
+      <DependentUpon>SysSet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="bin\Debug\EQ2008_Dll_Set.ini" />
+    <None Include="bin\Debug\KY.Fi.DCZqLQ.exe.config" />
+    <None Include="bin\Debug\KY.Fi.DCZqLQ.vshost.exe.config" />
+    <None Include="bin\Debug\Resources\EXCEL\化验室.xls" />
+    <None Include="bin\Debug\Resources\EXCEL\车间现场 - 副本.xls" />
+    <None Include="bin\Debug\Resources\EXCEL\车间现场.xls" />
+    <None Include="bin\x86\Debug\EQ2008_Dll_Set.ini" />
+    <None Include="bin\x86\Debug\index.sys" />
+    <None Include="bin\x86\Debug\KY.Fi.DCZqLQ.exe.config" />
+    <None Include="bin\x86\Debug\KY.Fi.DCZqLQ.vshost.exe.config" />
+    <None Include="bin\x86\Debug\Program.dat" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\制网室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\化验室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\调浆室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\车间现场.xls" />
+    <None Include="bin\x86\Debug\sent.sys" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SysSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SysSet.Designer.cs">
+      <DependentUpon>SysSet.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KQDataAccess\DataAccess.csproj">
+      <Project>{8AA8B788-6809-452D-8C80-986E428FFC4D}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Public\Public.csproj">
+      <Project>{36D30016-5028-43E9-BC82-182FA6841050}</Project>
+      <Name>Public</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Aspose.Cells.dll" />
+    <Content Include="bin\Debug\EQ2008_Dll.dll" />
+    <Content Include="bin\Debug\FI.DataAccess.dll" />
+    <Content Include="bin\Debug\FI.DataAccess.pdb" />
+    <Content Include="bin\Debug\FI.Public.dll" />
+    <Content Include="bin\Debug\FI.Public.pdb" />
+    <Content Include="bin\Debug\KY.AP.DataServices.dll" />
+    <Content Include="bin\Debug\KY.AP.Kernel.dll" />
+    <Content Include="bin\Debug\KY.AP.Kernel.Remoting.dll" />
+    <Content Include="bin\Debug\KY.Data.DB.SqlClient.dll" />
+    <Content Include="bin\Debug\KY.Data.dll" />
+    <Content Include="bin\Debug\KY.dll" />
+    <Content Include="bin\Debug\KY.Fi.DCZqLQ.exe" />
+    <Content Include="bin\Debug\KY.Fi.DCZqLQ.pdb" />
+    <Content Include="bin\Debug\KY.Fi.DCZqLQ.vshost.exe" />
+    <Content Include="bin\Debug\log\errolog.txt" />
+    <Content Include="bin\Debug\Resources\DataFile.xml" />
+    <Content Include="bin\Debug\Resources\IMAGE\H.jpg" />
+    <Content Include="bin\Debug\Resources\IMAGE\H1.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\H2.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\H3.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\H4.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\HHead.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W.jpg" />
+    <Content Include="bin\Debug\Resources\IMAGE\W1.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W10.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W11.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W12.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W13.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W14.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W15.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W16.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W2.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W3.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W4.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W5.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W6.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W7.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W8.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\W9.gif" />
+    <Content Include="bin\Debug\Resources\IMAGE\WHead.bmp" />
+    <Content Include="bin\Debug\Resources\IMAGE\WTemp.jpg" />
+    <Content Include="bin\Debug\Resources\yb.ico" />
+    <Content Include="bin\x86\Debug\Aspose.Cells.dll" />
+    <Content Include="bin\x86\Debug\EQ2008_Dll.dll" />
+    <Content Include="bin\x86\Debug\FI.DataAccess.dll" />
+    <Content Include="bin\x86\Debug\FI.DataAccess.pdb" />
+    <Content Include="bin\x86\Debug\FI.Public.dll" />
+    <Content Include="bin\x86\Debug\FI.Public.pdb" />
+    <Content Include="bin\x86\Debug\KY.AP.DataServices.dll" />
+    <Content Include="bin\x86\Debug\KY.AP.Kernel.dll" />
+    <Content Include="bin\x86\Debug\KY.AP.Kernel.Remoting.dll" />
+    <Content Include="bin\x86\Debug\KY.Data.DB.SqlClient.dll" />
+    <Content Include="bin\x86\Debug\KY.Data.dll" />
+    <Content Include="bin\x86\Debug\KY.dll" />
+    <Content Include="bin\x86\Debug\KY.Fi.DCZqLQ.exe" />
+    <Content Include="bin\x86\Debug\KY.Fi.DCZqLQ.pdb" />
+    <Content Include="bin\x86\Debug\KY.Fi.DCZqLQ.vshost.exe" />
+    <Content Include="bin\x86\Debug\log\errolog.txt" />
+    <Content Include="bin\x86\Debug\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="bin\x86\Debug\Microsoft.Office.Interop.Word.dll" />
+    <Content Include="bin\x86\Debug\Resources\DataFile.xml" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\H.jpg" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\H1.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\H2.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\H3.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\H4.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\HHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\THead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W.jpg" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W1.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W10.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W11.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W12.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W13.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W14.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W15.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W16.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W2.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W3.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W4.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W5.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W6.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W7.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W8.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\W9.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\WHead.bmp" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\WTemp.jpg" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\ZHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\ZwHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\yb.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
