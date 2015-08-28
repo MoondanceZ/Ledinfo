@@ -3338,3 +3338,70 @@
   发送数据失败_2015-08-28 09:57:17
 导出数据开始时间_2015-08-28 09:59:44
   发送数据失败_2015-08-28 09:59:56
+导出数据开始时间_2015-08-28 10:13:03
+  发送数据失败_2015-08-28 10:13:13
+导出数据开始时间_2015-08-28 10:17:41
+导出数据开始时间_2015-08-28 10:21:05
+  发送数据失败_2015-08-28 10:21:39
+导出数据开始时间_2015-08-28 10:30:11
+  发送数据失败_2015-08-28 10:30:24
+导出数据开始时间_2015-08-28 10:32:46
+  发送数据失败_2015-08-28 10:32:56
+导出数据开始时间_2015-08-28 10:34:48
+  发送数据失败_2015-08-28 10:34:57
+导出数据开始时间_2015-08-28 10:35:50
+  发送数据失败_2015-08-28 10:36:00
+导出数据开始时间_2015-08-28 10:41:59
+  发送数据失败_2015-08-28 10:42:08
+导出数据开始时间_2015-08-28 10:56:55
+  发送数据失败_2015-08-28 10:57:05
+导出数据开始时间_2015-08-28 11:00:10
+  发送数据失败_2015-08-28 11:00:21
+导出数据开始时间_2015-08-28 11:06:32
+  发送数据失败_2015-08-28 11:06:41
+导出数据开始时间_2015-08-28 11:15:23
+导出数据开始时间_2015-08-28 11:17:18
+导出数据开始时间_2015-08-28 11:23:34
+  发送数据失败_2015-08-28 11:23:46
+导出数据开始时间_2015-08-28 11:23:54
+导出数据开始时间_2015-08-28 11:24:47
+导出数据开始时间_2015-08-28 11:29:03
+导出数据开始时间_2015-08-28 11:31:17
+导出数据开始时间_2015-08-28 11:31:35
+导出数据开始时间_2015-08-28 11:32:14
+导出数据开始时间_2015-08-28 11:34:57
+  发送数据失败_2015-08-28 11:35:22
+2015-08-28 11:35:50  导出数据异常:KY.AP.DataServices.DataServiceException: 对象名 'tjsLED_view' 无效。
+   在 KY.AP.DataServices.DbHelper.ThrowException(KYDbTrans dbTrans)
+   在 KY.AP.DataServices.DbHelper.Fill(String connectString, DataTable dt, String sqlText, IDataParameter[] paramList)
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetTjs_View() 位置 d:\work\LEDInfo\KQDataAccess\LqImportDac.cs:行号 569
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowTJS() 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 270
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 112
+导出数据开始时间_2015-08-28 12:00:08
+  发送数据失败_2015-08-28 12:00:29
+2015-08-28 12:00:29  导出数据异常:KY.AP.DataServices.DataServiceException: 对象名 'tjsLED_view' 无效。
+   在 KY.AP.DataServices.DbHelper.ThrowException(KYDbTrans dbTrans)
+   在 KY.AP.DataServices.DbHelper.Fill(String connectString, DataTable dt, String sqlText, IDataParameter[] paramList)
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetTjs_View() 位置 d:\work\LEDInfo\KQDataAccess\LqImportDac.cs:行号 569
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowTJS() 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 270
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 112
+导出数据开始时间_2015-08-28 12:13:44
+  发送数据失败_2015-08-28 12:13:53
+2015-08-28 12:13:54  导出数据异常:KY.AP.DataServices.DataServiceException: 对象名 'tjsLED_view' 无效。
+   在 KY.AP.DataServices.DbHelper.ThrowException(KYDbTrans dbTrans)
+   在 KY.AP.DataServices.DbHelper.Fill(String connectString, DataTable dt, String sqlText, IDataParameter[] paramList)
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetTjs_View() 位置 d:\work\LEDInfo\KQDataAccess\LqImportDac.cs:行号 569
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowTJS() 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 270
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 112
+导出数据开始时间_2015-08-28 12:15:01
+2015-08-28 12:15:02  导出数据异常:KY.AP.DataServices.DataServiceException: 对象名 'tjsLED_view' 无效。
+   在 KY.AP.DataServices.DbHelper.ThrowException(KYDbTrans dbTrans)
+   在 KY.AP.DataServices.DbHelper.Fill(String connectString, DataTable dt, String sqlText, IDataParameter[] paramList)
+   在 KY.AP.DataServices.DbHelper.Fill(DataTable dt, String sql)
+   在 FI.DataAccess.LqImportDac.GetTjs_View() 位置 d:\work\LEDInfo\KQDataAccess\LqImportDac.cs:行号 569
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ShowTJS() 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 270
+   在 KY.Fi.DCZqLQ.AutoExportExcel.ExportExcel(Object sender, DoWorkEventArgs e) 位置 d:\work\LEDInfo\DCZqLQ\AutoExportExcel.cs:行号 112
+导出数据开始时间_2015-08-28 12:16:05

@@ -21,8 +21,9 @@ namespace KY.Fi.DCZqLQ
             InitializeComponent();
         }
         private void SysSet_Load(object sender, System.EventArgs e)
-        {            
-            ReadSetXml(Const.DBConnFile);            
+        {
+            ReadSetXml(Const.DBConnFile);
+            BindDatachkListBox();
             this.RunAsStart.Checked = startupManager.Startup;
         }
 
@@ -68,30 +69,24 @@ namespace KY.Fi.DCZqLQ
                             jTimes.Text = node.InnerText.ToString();
                             break;
                         case "Func":
-                            DataTable dtAllFunc = LqImportDac.GetLedInfoByConn();
-                            int count = 0;
-                            //DataTable dtSelectFunc = LqImportDac.GetLedInfo(node.InnerText.ToString());
+                            DataTable dtAllFunc = LqImportDac.GetLedInfoByConn();                            
+                            string[] funcTxt = node.InnerText.ToString().Split(',');
                             if (dtAllFunc.Rows.Count > 0)
                             {
-                                cmbFunc.DataSource = dtAllFunc;
-                                cmbFunc.DisplayMember = "txt";
-                                cmbFunc.ValueMember = "sht";
+                                chkListBox.DataSource = dtAllFunc;
+                                chkListBox.DisplayMember = "txt";
+                                chkListBox.ValueMember = "sht";
                                 for (int i = 0; i < dtAllFunc.Rows.Count; i++)
-                                {                                    
-                                    if(dtAllFunc.Rows[i]["sht"].ToString()==node.InnerText.ToString())
-                                    {
-                                        cmbFunc.SelectedValue = dtAllFunc.Rows[i]["sht"].ToString();
-                                        cmbFunc.SelectedText = dtAllFunc.Rows[i]["txt"].ToString();
-                                        break;
-                                    }
-                                    else
-                                        count++;
-                                }           
-                                if(count==dtAllFunc.Rows.Count)
                                 {
-                                    cmbFunc.SelectedIndex = -1;
-                                }
-                            }                            
+                                    for (int j = 0; j < funcTxt.Length; j++)
+                                    {
+                                        if(dtAllFunc.Rows[i]["sht"].ToString() == funcTxt[j])
+                                        {                                            
+                                            chkListBox.SetItemChecked(i, true);                                            
+                                        }
+                                    }                                    
+                                }                                
+                            }
                             break;
                     }
                 }
@@ -177,7 +172,15 @@ namespace KY.Fi.DCZqLQ
 
         private void btnOk_Click(object sender, System.EventArgs e)
         {
-
+            string funcTxt = "";
+            for (int i = 0; i < chkListBox.Items.Count; i++)
+            {
+                if(chkListBox.GetItemChecked(i))
+                {
+                    chkListBox.SetSelected(i, true);
+                    funcTxt += (String.IsNullOrEmpty(funcTxt) ? "" : ",") + chkListBox.SelectedValue.ToString();
+                }
+            }
 
             FileInfo fileinfo = new FileInfo(Const.DBConnFile);
             if (fileinfo.Exists)
@@ -190,7 +193,7 @@ namespace KY.Fi.DCZqLQ
 
 
             CreateXML(Const.DBConnFile, txtServer.Text, txtDatabase.Text, txtUser.Text, txtPsw.Text,
-                this.RunAsStart.Checked, cModel.Text, jTimes.Text.Trim(), cmbFunc.SelectedValue.ToString());
+                this.RunAsStart.Checked, cModel.Text, jTimes.Text.Trim(), funcTxt);
 
             startupManager.Startup = this.RunAsStart.Checked;
             MessageBox.Show("保存成功!");
@@ -201,13 +204,13 @@ namespace KY.Fi.DCZqLQ
             //System.Environment.Exit(0);
         }
 
-        private void BindDataCmbFunc()
+        private void BindDatachkListBox()
         {
             DataTable dtSelectFunc = LqImportDac.GetLedInfoByConn();
-            cmbFunc.DataSource = dtSelectFunc;
-            cmbFunc.DisplayMember = "txt";
-            cmbFunc.ValueMember = "sht";
-            cmbFunc.SelectedIndex = -1;
+            chkListBox.DataSource = dtSelectFunc;
+            chkListBox.DisplayMember = "txt";
+            chkListBox.ValueMember = "sht";
+
         }
 
         private void testConnect_Click(object sender, System.EventArgs e)
@@ -216,11 +219,10 @@ namespace KY.Fi.DCZqLQ
             //string connstr = String.Format("Data Source={0};User ID={1};Password={2}", txtDatabase.Text.Trim(), txtUser.Text.Trim(), this.txtPsw.Text.Trim());            
             if (connstr != "" && DBConn.TestConnection(connstr))
             {
-                DBConn.SetSqlConn(Const.DBConnFile);
-                if (cmbFunc.Items.Count == 0)
+                if (chkListBox.Items.Count == 0)
                 {
                     DBConn.SetConnStr(connstr);
-                    BindDataCmbFunc();
+                    BindDatachkListBox();
                 }
                 MessageBox.Show("连接成功!");
             }
@@ -247,36 +249,6 @@ namespace KY.Fi.DCZqLQ
                 }
             }
         }
-
-        private void btnFile_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog fileDialog = new OpenFileDialog();
-            fileDialog.Multiselect = true;
-            fileDialog.Title = "请选择文件";
-            fileDialog.Filter = "所以文件(*.*)|*.*";
-            if (fileDialog.ShowDialog() == DialogResult.OK)
-            {
-                //excelPath.Text = fileDialog.FileName;
-                string[] pathArray = fileDialog.FileNames;
-                if (pathArray.Length > 1)
-                {
-                    foreach (var path in pathArray)
-                    {
-                        excelPath.Text += path + ";";
-                    }
-                }
-                else
-                    excelPath.Text = pathArray[0];
-            }
-        }
-
-
-
-
-
-
-
-
 
     }
 }

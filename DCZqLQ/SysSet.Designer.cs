@@ -85,14 +85,11 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.btnFile = new System.Windows.Forms.Button();
+            this.chkListBox = new System.Windows.Forms.CheckedListBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.jTimes = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.excelPath = new System.Windows.Forms.TextBox();
-            this.cmbFunc = new System.Windows.Forms.ComboBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox6.SuspendLayout();
@@ -665,7 +662,7 @@
             "自动运行"});
             this.cModel.Location = new System.Drawing.Point(83, 36);
             this.cModel.Name = "cModel";
-            this.cModel.Size = new System.Drawing.Size(182, 20);
+            this.cModel.Size = new System.Drawing.Size(127, 20);
             this.cModel.TabIndex = 31;
             // 
             // label11
@@ -710,35 +707,26 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.cmbFunc);
-            this.groupBox7.Controls.Add(this.btnFile);
+            this.groupBox7.Controls.Add(this.chkListBox);
             this.groupBox7.Controls.Add(this.label2);
             this.groupBox7.Controls.Add(this.label8);
             this.groupBox7.Controls.Add(this.label3);
             this.groupBox7.Controls.Add(this.jTimes);
-            this.groupBox7.Controls.Add(this.label1);
-            this.groupBox7.Controls.Add(this.excelPath);
             this.groupBox7.Location = new System.Drawing.Point(3, 12);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(299, 230);
+            this.groupBox7.Size = new System.Drawing.Size(299, 259);
             this.groupBox7.TabIndex = 1;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "导EXCEL步设置";
             // 
-            // btnFile
+            // chkListBox
             // 
-            this.btnFile.AutoSize = true;
-            this.btnFile.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnFile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFile.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnFile.Location = new System.Drawing.Point(208, 188);
-            this.btnFile.Name = "btnFile";
-            this.btnFile.Size = new System.Drawing.Size(75, 26);
-            this.btnFile.TabIndex = 35;
-            this.btnFile.Text = "浏览";
-            this.btnFile.UseVisualStyleBackColor = true;
-            this.btnFile.Visible = false;
-            this.btnFile.Click += new System.EventHandler(this.btnFile_Click);
+            this.chkListBox.CheckOnClick = true;
+            this.chkListBox.FormattingEnabled = true;
+            this.chkListBox.Location = new System.Drawing.Point(70, 77);
+            this.chkListBox.Name = "chkListBox";
+            this.chkListBox.Size = new System.Drawing.Size(229, 180);
+            this.chkListBox.TabIndex = 37;
             // 
             // label2
             // 
@@ -749,6 +737,16 @@
             this.label2.Size = new System.Drawing.Size(21, 14);
             this.label2.TabIndex = 32;
             this.label2.Text = "分";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label8.Location = new System.Drawing.Point(0, 74);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(70, 14);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "功能选择:";
             // 
             // label3
             // 
@@ -768,45 +766,6 @@
             this.jTimes.Size = new System.Drawing.Size(77, 23);
             this.jTimes.TabIndex = 29;
             this.jTimes.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(4, 157);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 14);
-            this.label1.TabIndex = 34;
-            this.label1.Text = "EXCEL路径:";
-            this.label1.Visible = false;
-            // 
-            // excelPath
-            // 
-            this.excelPath.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.excelPath.Location = new System.Drawing.Point(81, 150);
-            this.excelPath.Name = "excelPath";
-            this.excelPath.Size = new System.Drawing.Size(202, 23);
-            this.excelPath.TabIndex = 33;
-            this.excelPath.TabStop = false;
-            this.excelPath.Visible = false;
-            // 
-            // cmbFunc
-            // 
-            this.cmbFunc.FormattingEnabled = true;
-            this.cmbFunc.Location = new System.Drawing.Point(118, 73);
-            this.cmbFunc.Name = "cmbFunc";
-            this.cmbFunc.Size = new System.Drawing.Size(121, 20);
-            this.cmbFunc.TabIndex = 36;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label8.Location = new System.Drawing.Point(0, 74);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 14);
-            this.label8.TabIndex = 28;
-            this.label8.Text = "功能选择:";
             // 
             // SysSet
             // 
@@ -898,13 +857,10 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.TextBox excelPath;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox jTimes;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btnFile;
-        private System.Windows.Forms.ComboBox cmbFunc;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckedListBox chkListBox;
     }
 }

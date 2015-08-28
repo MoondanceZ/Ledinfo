@@ -97,33 +97,46 @@ namespace KY.Fi.DCZqLQ
                 {
                     CBase.AddErroLog("导出数据开始时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                     setDataBaseConnect();
-                    switch (Const.Func)
+                    string[] funcTxt = Const.Func.Split(',');
+                    for (int i = 0; i < funcTxt.Length; i++)
                     {
-                        case "cjxc":
-                            ShowWorkShop();
-                            break;
-                        case "hys":
-                            ShowHYS();
-                            break;
-                        case "tjs":
-                            ShowTJS();
-                            break;
-                        case "zjs":
-                            ShowZJS();
-                            break;
-                        case "zws":
-                            ShowZWS();
-                            break;
-                        case "mgs":
-                            ShowMGS();
-                            break;
-                        case "zzs":
-                            ShowZZS();
-                            break;
-                        case "hzl":
-                            ShowHZL();
-                            break;
+                        switch (funcTxt[i])
+                        {
+                            case "cjxc":
+                                CBase.AddErroLog("车间现场数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowWorkShop();
+                                break;
+                            case "hys":
+                                CBase.AddErroLog("化验室数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowHYS();
+                                break;
+                            case "tjs":
+                                CBase.AddErroLog("调浆室数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowTJS();
+                                break;
+                            case "zjs":
+                                CBase.AddErroLog("助剂室数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowZJS();
+                                break;
+                            case "zws":
+                                CBase.AddErroLog("制网室数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowZWS();
+                                break;
+                            case "mgs":
+                                CBase.AddErroLog("描稿室数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowMGS();
+                                break;
+                            case "zzs":
+                                CBase.AddErroLog("整装室数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowZZS();
+                                break;
+                            case "hzl":
+                                CBase.AddErroLog("后整理数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                ShowHZL();
+                                break;
+                        }
                     }
+
                 }
                 catch (System.Exception ex)
                 {
@@ -1177,7 +1190,7 @@ namespace KY.Fi.DCZqLQ
         {
             //User_SendToScreen(g_iCardNum);            
             if (User_SendToScreen(g_iCardNum) == false)
-            {                
+            {
                 CBase.AddErroLog("  发送数据失败_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             }
             else
