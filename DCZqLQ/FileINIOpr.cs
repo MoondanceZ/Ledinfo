@@ -19,9 +19,11 @@ namespace KY.Fi.DCZqLQ
             WritePrivateProfileString(section, key, val, filepath);
         }
 
-        public string GetIniKeyValue(string src, string key, string strFilePath)
-        {            
-            return ContentValue(src, key, strFilePath);
+        public string GetIniKeyValue(string Section, string key, string strFilePath)
+        {
+            StringBuilder temp = new StringBuilder(1024);
+            GetPrivateProfileString(Section, key, "", temp, 1024, strFilePath);
+            return temp.ToString();
         }
 
         private string ContentValue(string Section, string key, string strFilePath)

@@ -297,6 +297,8 @@ namespace KY.Fi.DCZqLQ
             sendPro(LedTjs.cardNum);
             //删除节目
             deletePro(LedTjs.cardNum, ref g_iProgramIndex_tjs);
+            FileINIOpr fi = new FileINIOpr();
+            CBase.AddErroLog(fi.GetIniKeyValue("地址：0", "IpAddress3", IniFilePath));
         }
 
         //调浆室2楼助剂
@@ -310,7 +312,7 @@ namespace KY.Fi.DCZqLQ
             User_MoveSet MoveSet = new User_MoveSet();
             int iBMPZoneNum = 0;
             string ZjsPath = ".\\Resources\\EXCEL\\助剂室.xls";
-            string HeadImgPath = LedZjs.filePath + "THead.gif";
+            string HeadImgPath = LedZjs.filePath + "ZJHead.gif";
             //添加节目
             addPro(ref g_iProgramIndex_zjs, LedZjs.cardNum);
             addTxt(g_iProgramIndex_zjs, LedZjs.cardNum, LedZjs);
@@ -318,7 +320,7 @@ namespace KY.Fi.DCZqLQ
             addImgZoneHead(g_iProgramIndex_zjs, LedZjs.cardNum, LedZjs, HeadImgPath);
             addImgZoneRoll(ref BmpZone, ref MoveSet, ref iBMPZoneNum, g_iProgramIndex_zjs, LedZjs);
             //生成图片                                 
-            System.Data.DataTable dtZjs = LqImportDac.GetTjs_View();
+            System.Data.DataTable dtZjs = LqImportDac.GetZjs_View();
             for (int i = 0; i < dtZjs.Rows.Count; i++)
             {
                 toExcelOfZJS(ZjsPath, RowNum);
@@ -353,7 +355,7 @@ namespace KY.Fi.DCZqLQ
             User_MoveSet MoveSet = new User_MoveSet();
             int iBMPZoneNum = 0;
             string ZwsPath = ".\\Resources\\EXCEL\\制网室.xls";
-            string HeadImgPath = LedZws.filePath + "ZHead.gif";
+            string HeadImgPath = LedZws.filePath + "ZWHead.gif";
             //添加节目
             addPro(ref g_iProgramIndex_zws, LedZws.cardNum);
             addTxt(g_iProgramIndex_zws, LedZws.cardNum, LedZws);
@@ -372,9 +374,9 @@ namespace KY.Fi.DCZqLQ
                 imgOptions.OnePagePerSheet = true;
                 SheetRender sr = new SheetRender(ws, imgOptions);
                 Bitmap bitmap = sr.ToImage(0);
-                bitmap.Save(LedZws.filePath + "Z.jpg");
-                CloneImage(LedZws.cX, LedZws.cY, LedZws.cWidth, LedZws.cHeight, LedZws.filePath + "Z.jpg", LedZws.filePath + "Z" + (i + 1) + ".gif");
-                addImgbmp(ref iBMPZoneNum, ref MoveSet, g_iProgramIndex_zws, LedZws.filePath + "Z" + (i + 1) + ".gif", LedZws);
+                bitmap.Save(LedZws.filePath + "ZW.jpg");
+                CloneImage(LedZws.cX, LedZws.cY, LedZws.cWidth, LedZws.cHeight, LedZws.filePath + "ZW.jpg", LedZws.filePath + "ZW" + (i + 1) + ".gif");
+                addImgbmp(ref iBMPZoneNum, ref MoveSet, g_iProgramIndex_zws, LedZws.filePath + "ZW" + (i + 1) + ".gif", LedZws);
                 RowNum = (i + 1) * 3;
                 if (RowNum >= dtZws.Rows.Count)
                     break;
@@ -382,7 +384,7 @@ namespace KY.Fi.DCZqLQ
             //发送节目
             sendPro(LedZws.cardNum);
             //删除节目
-            deletePro(LedZws.cardNum, ref g_iProgramIndex_zws);
+            deletePro(LedZws.cardNum, ref g_iProgramIndex_zws);                        
         }
 
         //描稿室
@@ -439,7 +441,7 @@ namespace KY.Fi.DCZqLQ
             User_MoveSet MoveSet = new User_MoveSet();
             int iBMPZoneNum = 0;
             string ZzsPath = ".\\Resources\\EXCEL\\整装室.xls";
-            string HeadImgPath = LedZzs.filePath + "ZzHead.gif";
+            string HeadImgPath = LedZzs.filePath + "ZZHead.gif";
             //添加节目
             addPro(ref g_iProgramIndex_zzs, LedZzs.cardNum);
             addTxt(g_iProgramIndex_zzs, LedZzs.cardNum, LedZzs);
@@ -458,9 +460,9 @@ namespace KY.Fi.DCZqLQ
                 imgOptions.OnePagePerSheet = true;
                 SheetRender sr = new SheetRender(ws, imgOptions);
                 Bitmap bitmap = sr.ToImage(0);
-                bitmap.Save(LedZzs.filePath + "Zz.jpg");
-                CloneImage(LedZzs.cX, LedZzs.cY, LedZzs.cWidth, LedZzs.cHeight, LedZzs.filePath + "Zz.jpg", LedZzs.filePath + "Zz" + (i + 1) + ".gif");
-                addImgbmp(ref iBMPZoneNum, ref MoveSet, g_iProgramIndex_zzs, LedZzs.filePath + "Zz" + (i + 1) + ".gif", LedZzs);
+                bitmap.Save(LedZzs.filePath + "ZZ.jpg");
+                CloneImage(LedZzs.cX, LedZzs.cY, LedZzs.cWidth, LedZzs.cHeight, LedZzs.filePath + "ZZ.jpg", LedZzs.filePath + "ZZ" + (i + 1) + ".gif");
+                addImgbmp(ref iBMPZoneNum, ref MoveSet, g_iProgramIndex_zzs, LedZzs.filePath + "ZZ" + (i + 1) + ".gif", LedZzs);
                 RowNum = (i + 1) * 3;
                 if (RowNum >= dtZzs.Rows.Count)
                     break;
@@ -656,7 +658,37 @@ namespace KY.Fi.DCZqLQ
         //助剂室Excel
         private void toExcelOfZJS(string ZJPath, int rowNum)
         {
+            if (!string.IsNullOrEmpty(ZJPath))
+            {
+                if (!SetOledbConn(ZJPath))
+                    return;
 
+                //System.Data.DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDayAndRownum(DateTime.Today.ToString("yyyy-MM-dd"), rowNum);
+                DataTable dtTjs = LqImportDac.GetZjs_View();
+                OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
+                cn.Open();
+
+                if (dtTjs != null || dtTjs.Rows.Count > 0)
+                {
+                    int count = 0;
+                    for (int i = rowNum; i < rowNum + 3; i++)
+                    {
+                        if (i == dtTjs.Rows.Count)
+                            break;
+                        DataRow dr = dtTjs.Rows[i];
+                        string index = (1 + count).ToString();
+                        StringBuilder sb = new StringBuilder(200);
+                        sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
+                            dr["花型"].ToString(), dr["计划产量"].ToString(), dr["计划用料时间"].ToString(), dr["状态"].ToString(), index, dr["计划机台"].ToString());
+
+                        cmd.CommandText = sb.ToString();
+                        cmd.ExecuteNonQuery();
+                        count = count + 1;
+                    }
+                }
+                cn.Close();
+                KillProcess("excel", ZJPath);
+            }
         }
 
         //制网室Excel
@@ -698,13 +730,71 @@ namespace KY.Fi.DCZqLQ
         //描稿室Excel
         private void toExcelOfMGS(string MGSPath, int rowNum)
         {
+            if (!string.IsNullOrEmpty(MGSPath))
+            {
+                if (!SetOledbConn(MGSPath))
+                    return;
 
+                DataTable dtMgs = LqImportDac.GetMgs_View();
+                OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
+                cn.Open();
+
+                if (dtMgs != null || dtMgs.Rows.Count > 0)
+                {
+                    int count = 0;
+                    for (int i = rowNum; i < rowNum + 3; i++)
+                    {
+                        if (i == dtMgs.Rows.Count)
+                            break;
+                        DataRow dr = dtMgs.Rows[i];
+                        string index = (1 + count).ToString();
+                        StringBuilder sb = new StringBuilder(200);
+                        sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
+                            dr["花型"].ToString(), dr["描稿人员"].ToString(), dr["计划完成时间"].ToString(), dr["实际完成时间"].ToString(), index, dr["状态"].ToString());
+
+                        cmd.CommandText = sb.ToString();
+                        cmd.ExecuteNonQuery();
+                        count = count + 1;
+                    }
+                }
+                cn.Close();
+                KillProcess("excel", MGSPath);
+            }
         }
 
         //整装室Excel
         private void toExcelOfZZS(string ZZSPath, int rowNum)
         {
+            if (!string.IsNullOrEmpty(ZZSPath))
+            {
+                if (!SetOledbConn(ZZSPath))
+                    return;
 
+                DataTable dtZzs = LqImportDac.GetZzs_View();
+                OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
+                cn.Open();
+
+                if (dtZzs != null || dtZzs.Rows.Count > 0)
+                {
+                    int count = 0;
+                    for (int i = rowNum; i < rowNum + 3; i++)
+                    {
+                        if (i == dtZzs.Rows.Count)
+                            break;
+                        DataRow dr = dtZzs.Rows[i];
+                        string index = (1 + count).ToString();
+                        StringBuilder sb = new StringBuilder(200);
+                        sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
+                            dr["花型"].ToString(), dr["整装人员"].ToString(), dr["整装完成时间"].ToString(), dr["实际完成时间"].ToString(), index, dr["状态"].ToString());
+
+                        cmd.CommandText = sb.ToString();
+                        cmd.ExecuteNonQuery();
+                        count = count + 1;
+                    }
+                }
+                cn.Close();
+                KillProcess("excel", ZZSPath);
+            }
         }
 
         //后整理Excel

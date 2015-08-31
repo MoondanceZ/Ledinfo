@@ -137,7 +137,10 @@
     <None Include="bin\x86\Debug\KY.Fi.DCZqLQ.vshost.exe.config" />
     <None Include="bin\x86\Debug\Program.dat" />
     <None Include="bin\x86\Debug\Resources\EXCEL\制网室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\助剂室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\化验室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\描稿室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\整装室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\调浆室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\车间现场.xls" />
     <None Include="bin\x86\Debug\sent.sys" />
@@ -236,6 +239,7 @@
     <Content Include="bin\x86\Debug\Resources\IMAGE\H3.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\H4.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\HHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\MHead.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\THead.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\W.jpg" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\W1.gif" />
@@ -255,9 +259,10 @@
     <Content Include="bin\x86\Debug\Resources\IMAGE\W8.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\W9.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\WHead.bmp" />
-    <Content Include="bin\x86\Debug\Resources\IMAGE\WTemp.jpg" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\ZHead.gif" />
-    <Content Include="bin\x86\Debug\Resources\IMAGE\ZwHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\ZJHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\ZWHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\ZZHead.gif" />
     <Content Include="bin\x86\Debug\Resources\yb.ico" />
   </ItemGroup>
   <ItemGroup>

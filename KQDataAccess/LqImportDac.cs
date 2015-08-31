@@ -588,13 +588,24 @@ ORDER BY MCN.sht,BAN";
 
         public static DataTable GetZzs_View()
         {
-            throw new NotImplementedException();
+            DataTable dt = new DataTable();
+            string sql = @"select * from zzsLED_view";
+            DbHelper.Fill(dt, sql);
+            return dt;
         }
 
         public static DataTable GetHzl_View()
         {
             throw new NotImplementedException();
         }
-       
+
+
+        public static DataTable GetZjs_View()
+        {
+            DataTable dt = new DataTable();
+            string sql = @"select * from zjsLED_view";
+            DbHelper.Fill(dt, sql);
+            return dt;
+        }
     }
 }
