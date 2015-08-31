@@ -535,18 +535,15 @@ ORDER BY MCN.sht,BAN";
         }
 
         /// <summary>
-        /// 返回屏幕信息
+        /// 获取功能点
         /// </summary>
-        /// <param name="sht"></param>
         /// <returns></returns>
         public static DataTable GetLedInfoByConn()
-        {
-            //DbHelper.Open("ConnectType=SqlClient;" + connStr);
+        {            
             DBConn.DbHelperOpen();
             DataTable dt = new DataTable();
             string sql = @"select * from ledInfo where 1=1 ";
-            dt = DbHelper.GetDataTable(sql);
-            //DbHelper.Close(connStr);
+            dt = DbHelper.GetDataTable(sql);            
             return dt;
         }
 

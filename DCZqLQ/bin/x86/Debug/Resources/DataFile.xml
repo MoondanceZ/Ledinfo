@@ -7,5 +7,5 @@
   <model>自动运行</model>
   <IsRunAsStart>0</IsRunAsStart>
   <jTimes>30</jTimes>
-  <Func>tjs,zws</Func>
+  <Func>tjs,mgs</Func>
 </DataSet>

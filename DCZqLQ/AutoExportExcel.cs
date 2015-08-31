@@ -591,7 +591,6 @@ namespace KY.Fi.DCZqLQ
                 if (!SetOledbConn(HYSPath))
                     return;
 
-                //System.Data.DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDayAndRownum(DateTime.Today.ToString("yyyy-MM-dd"), rowNum);
                 DataTable dtHys = LqImportDac.GetHys_View();
                 OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
                 cn.Open();
@@ -607,7 +606,7 @@ namespace KY.Fi.DCZqLQ
                         string index = (1 + count).ToString();
                         StringBuilder sb = new StringBuilder(200);
                         sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
-                            dr["花型"].ToString(), dr["打样员"].ToString(), dr["计划完成时间"].ToString(), dr["打样完成时间"].ToString(), index, dr["状态"].ToString());
+                            dr["花型"].ToString(), dr["打样员"].ToString(), dr["计划生产时间"].ToString(), dr["打样完成时间"].ToString(), index, dr["状态"].ToString());
 
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
@@ -627,7 +626,6 @@ namespace KY.Fi.DCZqLQ
                 if (!SetOledbConn(TJSPath))
                     return;
 
-                //System.Data.DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDayAndRownum(DateTime.Today.ToString("yyyy-MM-dd"), rowNum);
                 DataTable dtTjs = LqImportDac.GetTjs_View();
                 OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
                 cn.Open();
@@ -663,7 +661,6 @@ namespace KY.Fi.DCZqLQ
                 if (!SetOledbConn(ZJPath))
                     return;
 
-                //System.Data.DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDayAndRownum(DateTime.Today.ToString("yyyy-MM-dd"), rowNum);
                 DataTable dtTjs = LqImportDac.GetZjs_View();
                 OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
                 cn.Open();
@@ -699,7 +696,6 @@ namespace KY.Fi.DCZqLQ
                 if (!SetOledbConn(ZWSPath))
                     return;
 
-                //System.Data.DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDayAndRownum(DateTime.Today.ToString("yyyy-MM-dd"), rowNum);
                 DataTable dtZws = LqImportDac.GetZws_View();
                 OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
                 cn.Open();
