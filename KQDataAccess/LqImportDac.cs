@@ -529,7 +529,7 @@ ORDER BY MCN.sht,BAN";
         public static DataTable GetLedInfo(string sht)
         {
             DataTable dt = new DataTable();
-            string sql = @"select * from ledInfo where sht='" + sht + "' ";
+            string sql = @"select * from ledInfo where sht='" +  sht + "' ";
             DbHelper.Fill(dt, sql);
             return dt;
         }
@@ -591,16 +591,18 @@ ORDER BY MCN.sht,BAN";
             return dt;
         }
 
-        public static DataTable GetHzl_View()
-        {
-            throw new NotImplementedException();
-        }
-
-
         public static DataTable GetZjs_View()
         {
             DataTable dt = new DataTable();
             string sql = @"select * from zjsLED_view";
+            DbHelper.Fill(dt, sql);
+            return dt;
+        }
+
+        public static DataTable GetZjs1_View()
+        {
+            DataTable dt = new DataTable();
+            string sql = @"select * from zjs1LED_view";
             DbHelper.Fill(dt, sql);
             return dt;
         }
