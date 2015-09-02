@@ -296,9 +296,7 @@ namespace KY.Fi.DCZqLQ
             //发送节目
             sendPro(LedTjs.cardNum);
             //删除节目
-            deletePro(LedTjs.cardNum, ref g_iProgramIndex_tjs);
-            FileINIOpr fi = new FileINIOpr();
-            CBase.AddErroLog(fi.GetIniKeyValue("地址：0", "IpAddress3", IniFilePath));
+            deletePro(LedTjs.cardNum, ref g_iProgramIndex_tjs);           
         }
 
         //调浆室2楼助剂
@@ -492,7 +490,7 @@ namespace KY.Fi.DCZqLQ
             addImgZoneHead(g_iProgramIndex_hzl, LedHzl.cardNum, LedHzl, HeadImgPath);
             addImgZoneRoll(ref BmpZone, ref MoveSet, ref iBMPZoneNum, g_iProgramIndex_hzl, LedHzl);
             //生成图片                                 
-            System.Data.DataTable dtHzl = LqImportDac.GetHzl_View();
+            System.Data.DataTable dtHzl = LqImportDac.GetZjs1_View();
             for (int i = 0; i < dtHzl.Rows.Count; i++)
             {
                 toExcelOfHZL(HzlPath, RowNum);
@@ -658,32 +656,28 @@ namespace KY.Fi.DCZqLQ
         {
             if (!string.IsNullOrEmpty(ZJPath))
             {
-                if (!SetOledbConn(ZJPath))
-                    return;
-
-                DataTable dtTjs = LqImportDac.GetZjs_View();
-                OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
-                cn.Open();
-
-                if (dtTjs != null || dtTjs.Rows.Count > 0)
+                DataTable dtZjs = LqImportDac.GetZjs_View();
+                if (dtZjs != null || dtZjs.Rows.Count > 0)
                 {
                     int count = 0;
+                    Workbook workbook = new Workbook(ZJPath);
+                    Worksheet worksheet = workbook.Worksheets[0];
+                    Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 3; i++)
                     {
-                        if (i == dtTjs.Rows.Count)
+                        if (i == dtZjs.Rows.Count)
                             break;
-                        DataRow dr = dtTjs.Rows[i];
-                        string index = (1 + count).ToString();
-                        StringBuilder sb = new StringBuilder(200);
-                        sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
-                            dr["花型"].ToString(), dr["计划产量"].ToString(), dr["计划用料时间"].ToString(), dr["状态"].ToString(), index, dr["计划机台"].ToString());
-
-                        cmd.CommandText = sb.ToString();
-                        cmd.ExecuteNonQuery();
+                        DataRow dr = dtZjs.Rows[i];
+                        cells[count, 0].PutValue(dr["订单"].ToString());
+                        cells[count, 1].PutValue(dr["花型"].ToString());
+                        cells[count, 2].PutValue(dr["计划产量"].ToString());
+                        cells[count, 3].PutValue(dr["计划用料时间"].ToString());
+                        cells[count, 4].PutValue(dr["状态"].ToString());
+                        cells[count, 5].PutValue(dr["计划机台"].ToString());
                         count = count + 1;
                     }
+                    workbook.Save(ZJPath);
                 }
-                cn.Close();
                 KillProcess("excel", ZJPath);
             }
         }
@@ -728,34 +722,31 @@ namespace KY.Fi.DCZqLQ
         {
             if (!string.IsNullOrEmpty(MGSPath))
             {
-                if (!SetOledbConn(MGSPath))
-                    return;
-
                 DataTable dtMgs = LqImportDac.GetMgs_View();
-                OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
-                cn.Open();
-
                 if (dtMgs != null || dtMgs.Rows.Count > 0)
                 {
                     int count = 0;
+                    Workbook workbook = new Workbook(MGSPath);
+                    Worksheet worksheet = workbook.Worksheets[0];
+                    Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 3; i++)
                     {
                         if (i == dtMgs.Rows.Count)
                             break;
                         DataRow dr = dtMgs.Rows[i];
-                        string index = (1 + count).ToString();
-                        StringBuilder sb = new StringBuilder(200);
-                        sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
-                            dr["花型"].ToString(), dr["描稿人员"].ToString(), dr["计划完成时间"].ToString(), dr["实际完成时间"].ToString(), index, dr["状态"].ToString());
-
-                        cmd.CommandText = sb.ToString();
-                        cmd.ExecuteNonQuery();
+                        cells[count, 0].PutValue(dr["订单"].ToString());
+                        cells[count, 1].PutValue(dr["花型"].ToString());
+                        cells[count, 2].PutValue(dr["描稿人员"].ToString());
+                        cells[count, 3].PutValue(dr["计划完成时间"].ToString());
+                        cells[count, 4].PutValue(dr["实际完成时间"].ToString());
+                        cells[count, 5].PutValue(dr["状态"].ToString());
                         count = count + 1;
                     }
+                    workbook.Save(MGSPath);
                 }
-                cn.Close();
                 KillProcess("excel", MGSPath);
             }
+
         }
 
         //整装室Excel
@@ -763,32 +754,28 @@ namespace KY.Fi.DCZqLQ
         {
             if (!string.IsNullOrEmpty(ZZSPath))
             {
-                if (!SetOledbConn(ZZSPath))
-                    return;
-
                 DataTable dtZzs = LqImportDac.GetZzs_View();
-                OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
-                cn.Open();
-
                 if (dtZzs != null || dtZzs.Rows.Count > 0)
                 {
                     int count = 0;
+                    Workbook workbook = new Workbook(ZZSPath);
+                    Worksheet worksheet = workbook.Worksheets[0];
+                    Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 3; i++)
                     {
                         if (i == dtZzs.Rows.Count)
                             break;
                         DataRow dr = dtZzs.Rows[i];
-                        string index = (1 + count).ToString();
-                        StringBuilder sb = new StringBuilder(200);
-                        sb.AppendFormat("UPDATE [Sheet1$A{5}:F{5}] SET F1='{0}',F2='{1}',F3='{2}',F4='{3}',F5='{4}',F6='{6}'", dr["订单"].ToString(),
-                            dr["花型"].ToString(), dr["整装人员"].ToString(), dr["整装完成时间"].ToString(), dr["实际完成时间"].ToString(), index, dr["状态"].ToString());
-
-                        cmd.CommandText = sb.ToString();
-                        cmd.ExecuteNonQuery();
+                        cells[count, 0].PutValue(dr["订单"].ToString());
+                        cells[count, 1].PutValue(dr["花型"].ToString());
+                        cells[count, 2].PutValue(dr["整装人员"].ToString());
+                        cells[count, 3].PutValue(dr["整装完成时间"].ToString());
+                        cells[count, 4].PutValue(dr["实际完成时间"].ToString());
+                        cells[count, 5].PutValue(dr["状态"].ToString());
                         count = count + 1;
                     }
+                    workbook.Save(ZZSPath);
                 }
-                cn.Close();
                 KillProcess("excel", ZZSPath);
             }
         }
@@ -796,7 +783,32 @@ namespace KY.Fi.DCZqLQ
         //后整理Excel
         private void toExcelOfHZL(string HZLPath, int rowNum)
         {
-
+            if (!string.IsNullOrEmpty(HZLPath))
+            {
+                DataTable dtZjs = LqImportDac.GetZjs1_View();
+                if (dtZjs != null || dtZjs.Rows.Count > 0)
+                {
+                    int count = 0;
+                    Workbook workbook = new Workbook(HZLPath);
+                    Worksheet worksheet = workbook.Worksheets[0];
+                    Cells cells = worksheet.Cells;
+                    for (int i = rowNum; i < rowNum + 3; i++)
+                    {
+                        if (i == dtZjs.Rows.Count)
+                            break;
+                        DataRow dr = dtZjs.Rows[i];
+                        cells[count, 0].PutValue(dr["订单"].ToString());
+                        cells[count, 1].PutValue(dr["花型"].ToString());
+                        cells[count, 2].PutValue(dr["计划产量"].ToString());
+                        cells[count, 3].PutValue(dr["计划用料时间"].ToString());
+                        cells[count, 4].PutValue(dr["状态"].ToString());
+                        cells[count, 5].PutValue(dr["计划机台"].ToString());
+                        count = count + 1;
+                    }
+                    workbook.Save(HZLPath);
+                }
+                KillProcess("excel", HZLPath);
+            }
         }
 
         private void ToExcel()
@@ -1325,6 +1337,17 @@ namespace KY.Fi.DCZqLQ
                 {
                     string[] IP = ledinfo.IpAddress.Split('.');
                     FileINIOpr fileIni = new FileINIOpr();
+                    //string addr = "地址：" + (ledinfo.cardNum - 1).ToString();
+                    //fileIni.SetIniKeyValue(addr, "CardType", ledinfo.CardType.ToString(), path);
+                    //fileIni.SetIniKeyValue(addr, "CardAddress", (ledinfo.cardNum - 1).ToString(), path);
+                    //fileIni.SetIniKeyValue(addr, "CommunicationMode", ledinfo.CommunicationMode.ToString(), path);
+                    //fileIni.SetIniKeyValue(addr, "ScreenHeight", ledinfo.sHeight.ToString(), path);
+                    //fileIni.SetIniKeyValue(addr, "ScreenWidth", ledinfo.sWidth.ToString(), path);
+                    //fileIni.SetIniKeyValue(addr, "IpAddress0", IP[0], path);
+                    //fileIni.SetIniKeyValue(addr, "IpAddress1", IP[1], path);
+                    //fileIni.SetIniKeyValue(addr, "IpAddress2", IP[2], path);
+                    //fileIni.SetIniKeyValue(addr, "IpAddress3", IP[3], path);
+                    //fileIni.SetIniKeyValue(addr, "ColorStyle", ledinfo.ColorStyle.ToString(), path);
                     fileIni.SetIniKeyValue("地址：0", "CardType", ledinfo.CardType.ToString(), path);
                     fileIni.SetIniKeyValue("地址：0", "CardAddress", (ledinfo.cardNum - 1).ToString(), path);
                     fileIni.SetIniKeyValue("地址：0", "CommunicationMode", ledinfo.CommunicationMode.ToString(), path);
