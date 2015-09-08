@@ -134,6 +134,9 @@ namespace KY.Fi.DCZqLQ
                                 CBase.AddErroLog("后整理数据发送时间_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
                                 ShowHZL();
                                 break;
+                            default:
+                                CBase.AddErroLog("没有此屏幕功能的相关信息_" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+                                break;
                         }
                     }
 
@@ -296,7 +299,7 @@ namespace KY.Fi.DCZqLQ
             //发送节目
             sendPro(LedTjs.cardNum);
             //删除节目
-            deletePro(LedTjs.cardNum, ref g_iProgramIndex_tjs);           
+            deletePro(LedTjs.cardNum, ref g_iProgramIndex_tjs);
         }
 
         //调浆室2楼助剂
@@ -382,7 +385,7 @@ namespace KY.Fi.DCZqLQ
             //发送节目
             sendPro(LedZws.cardNum);
             //删除节目
-            deletePro(LedZws.cardNum, ref g_iProgramIndex_zws);                        
+            deletePro(LedZws.cardNum, ref g_iProgramIndex_zws);
         }
 
         //描稿室
@@ -517,24 +520,22 @@ namespace KY.Fi.DCZqLQ
         //车间现场Excel
         private void ToExcelOfWorkShop(string workShopPath, int rowNum)
         {
-            //System.Data.DataTable dtMcnDataGatherByMon = LqImportDac.GetMcnDataGatherAllByMon(DateTime.Now.Year.ToString(), DateTime.Now.Month.ToString(), rowNum * count);            
-            //rowNum = rowNum + 1;
             if (!string.IsNullOrEmpty(workShopPath))
             {
                 if (!SetOledbConn(workShopPath))
                     return;
-
-                //System.Data.DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDayAndRownum(DateTime.Today.ToString("yyyy-MM-dd"), rowNum);
+                
                 DataTable dtMcnDataGatherByDay = LqImportDac.GetMcnDataGatherAllByDay(DateTime.Today.ToString("yyyy-MM-dd"));
                 DataTable dtMcnDataGatherByMon = LqImportDac.GetMcnDataGatherAllByMon(DateTime.Now.Year.ToString(), DateTime.Now.Month.ToString());
-                //rowNum = rowNum == 1 ? 7 : rowNum - 1;
-                //System.Data.DataTable dtMcnDataGatherByMon = LqImportDac.GetMcnDataGatherAllByMon(DateTime.Now.Year.ToString(), DateTime.Now.Month.ToString(), (rowNum - 1) * 2);
 
                 OleDbCommand cmd = new OleDbCommand("SELECT * FROM [Sheet1$] WHERE 1<>1 ", cn);
                 cn.Open();
                 if (dtMcnDataGatherByDay != null || dtMcnDataGatherByDay.Rows.Count > 0)
                 {
                     int count = 0;
+                    //Workbook workbook = new Workbook(workShopPath);
+                    //Worksheet worksheet = workbook.Worksheets[0];
+                    //Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 6; i++)
                     {
                         if (i == dtMcnDataGatherByDay.Rows.Count)
@@ -546,6 +547,8 @@ namespace KY.Fi.DCZqLQ
                             string sql = "UPDATE [Sheet1$" + "A" + index + ":A" + index + "] SET F1= '" + dtMcnDataGatherByDay.Rows[i]["txt"].ToString() + "' ";
                             cmd.CommandText = sql;
                             cmd.ExecuteNonQuery();
+
+                            //cells[i, 0].PutValue(dtMcnDataGatherByDay.Rows[i]["txt"].ToString());
                         }
 
                         StringBuilder sb = new StringBuilder(200);
@@ -554,6 +557,13 @@ namespace KY.Fi.DCZqLQ
                             dr["jnQty"].ToString());
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
+
+                        //cells[count, 2].PutValue(dr["oprSumQty"].ToString());
+                        //cells[count, 4].PutValue(dr["watQty"].ToString());
+                        //cells[count, 6].PutValue(dr["elecQty"].ToString());
+                        //cells[count, 8].PutValue(dr["vapQty"].ToString());
+                        //cells[count, 10].PutValue(dr["jnQty"].ToString());   
+
                         count = count + 1;
                     }
                 }
@@ -561,6 +571,9 @@ namespace KY.Fi.DCZqLQ
                 if (dtMcnDataGatherByMon != null || dtMcnDataGatherByMon.Rows.Count > 0)
                 {
                     int count = 0;
+                    //Workbook workbook = new Workbook(workShopPath);
+                    //Worksheet worksheet = workbook.Worksheets[0];
+                    //Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 6; i++)
                     {
                         if (i == dtMcnDataGatherByMon.Rows.Count)
@@ -573,6 +586,13 @@ namespace KY.Fi.DCZqLQ
 
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
+
+                        //cells[count, 3].PutValue(dr["oprSumQty"].ToString());
+                        //cells[count, 5].PutValue(dr["watQty"].ToString());
+                        //cells[count, 7].PutValue(dr["elecQty"].ToString());
+                        //cells[count, 9].PutValue(dr["vapQty"].ToString());
+                        //cells[count, 11].PutValue(dr["jnQty"].ToString());                    
+
                         count = count + 1;
                     }
                 }
@@ -596,6 +616,9 @@ namespace KY.Fi.DCZqLQ
                 if (dtHys != null || dtHys.Rows.Count > 0)
                 {
                     int count = 0;
+                    //Workbook workbook = new Workbook(HYSPath);
+                    //Worksheet worksheet = workbook.Worksheets[0];
+                    //Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 3; i++)
                     {
                         if (i == dtHys.Rows.Count)
@@ -608,6 +631,14 @@ namespace KY.Fi.DCZqLQ
 
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
+
+                        //cells[count, 0].PutValue(dr["订单"].ToString());
+                        //cells[count, 1].PutValue(dr["花型"].ToString());
+                        //cells[count, 2].PutValue(dr["打样员"].ToString());
+                        //cells[count, 3].PutValue(dr["计划生产时间"].ToString());
+                        //cells[count, 4].PutValue(dr["打样完成时间"].ToString());
+                        //cells[count, 5].PutValue(dr["状态"].ToString());
+
                         count = count + 1;
                     }
                 }
@@ -631,6 +662,9 @@ namespace KY.Fi.DCZqLQ
                 if (dtTjs != null || dtTjs.Rows.Count > 0)
                 {
                     int count = 0;
+                    //Workbook workbook = new Workbook(TJSPath);
+                    //Worksheet worksheet = workbook.Worksheets[0];
+                    //Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 3; i++)
                     {
                         if (i == dtTjs.Rows.Count)
@@ -643,6 +677,14 @@ namespace KY.Fi.DCZqLQ
 
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
+
+                        //cells[count, 0].PutValue(dr["订单"].ToString());
+                        //cells[count, 1].PutValue(dr["花型"].ToString());
+                        //cells[count, 2].PutValue(dr["计划用料时间"].ToString());
+                        //cells[count, 3].PutValue(dr["计划产量"].ToString());
+                        //cells[count, 4].PutValue(dr["计划机台"].ToString());
+                        //cells[count, 5].PutValue(dr["状态"].ToString());
+
                         count = count + 1;
                     }
                 }
@@ -697,6 +739,9 @@ namespace KY.Fi.DCZqLQ
                 if (dtZws != null || dtZws.Rows.Count > 0)
                 {
                     int count = 0;
+                    //Workbook workbook = new Workbook(ZWSPath);
+                    //Worksheet worksheet = workbook.Worksheets[0];
+                    //Cells cells = worksheet.Cells;
                     for (int i = rowNum; i < rowNum + 3; i++)
                     {
                         if (i == dtZws.Rows.Count)
@@ -709,6 +754,14 @@ namespace KY.Fi.DCZqLQ
 
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
+
+                        //cells[count, 0].PutValue(dr["订单"].ToString());
+                        //cells[count, 1].PutValue(dr["花型"].ToString());
+                        //cells[count, 2].PutValue(dr["计划完成时间"].ToString());
+                        //cells[count, 3].PutValue(dr["制网人员"].ToString());
+                        //cells[count, 4].PutValue(dr["计划机台"].ToString());
+                        //cells[count, 5].PutValue(dr["状态"].ToString());
+
                         count = count + 1;
                     }
                 }
@@ -1337,27 +1390,17 @@ namespace KY.Fi.DCZqLQ
                 {
                     string[] IP = ledinfo.IpAddress.Split('.');
                     FileINIOpr fileIni = new FileINIOpr();
-                    //string addr = "地址：" + (ledinfo.cardNum - 1).ToString();
-                    //fileIni.SetIniKeyValue(addr, "CardType", ledinfo.CardType.ToString(), path);
-                    //fileIni.SetIniKeyValue(addr, "CardAddress", (ledinfo.cardNum - 1).ToString(), path);
-                    //fileIni.SetIniKeyValue(addr, "CommunicationMode", ledinfo.CommunicationMode.ToString(), path);
-                    //fileIni.SetIniKeyValue(addr, "ScreenHeight", ledinfo.sHeight.ToString(), path);
-                    //fileIni.SetIniKeyValue(addr, "ScreenWidth", ledinfo.sWidth.ToString(), path);
-                    //fileIni.SetIniKeyValue(addr, "IpAddress0", IP[0], path);
-                    //fileIni.SetIniKeyValue(addr, "IpAddress1", IP[1], path);
-                    //fileIni.SetIniKeyValue(addr, "IpAddress2", IP[2], path);
-                    //fileIni.SetIniKeyValue(addr, "IpAddress3", IP[3], path);
-                    //fileIni.SetIniKeyValue(addr, "ColorStyle", ledinfo.ColorStyle.ToString(), path);
-                    fileIni.SetIniKeyValue("地址：0", "CardType", ledinfo.CardType.ToString(), path);
-                    fileIni.SetIniKeyValue("地址：0", "CardAddress", (ledinfo.cardNum - 1).ToString(), path);
-                    fileIni.SetIniKeyValue("地址：0", "CommunicationMode", ledinfo.CommunicationMode.ToString(), path);
-                    fileIni.SetIniKeyValue("地址：0", "ScreenHeight", ledinfo.sHeight.ToString(), path);
-                    fileIni.SetIniKeyValue("地址：0", "ScreenWidth", ledinfo.sWidth.ToString(), path);
-                    fileIni.SetIniKeyValue("地址：0", "IpAddress0", IP[0], path);
-                    fileIni.SetIniKeyValue("地址：0", "IpAddress1", IP[1], path);
-                    fileIni.SetIniKeyValue("地址：0", "IpAddress2", IP[2], path);
-                    fileIni.SetIniKeyValue("地址：0", "IpAddress3", IP[3], path);
-                    fileIni.SetIniKeyValue("地址：0", "ColorStyle", ledinfo.ColorStyle.ToString(), path);
+                    string cardAddr = (ledinfo.cardNum - 1).ToString();
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "CardType", ledinfo.CardType.ToString(), path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "CardAddress", (ledinfo.cardNum - 1).ToString(), path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "CommunicationMode", ledinfo.CommunicationMode.ToString(), path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "ScreemHeight", ledinfo.sHeight.ToString(), path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "ScreemWidth", ledinfo.sWidth.ToString(), path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "IpAddress0", IP[0], path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "IpAddress1", IP[1], path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "IpAddress2", IP[2], path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "IpAddress3", IP[3], path);
+                    fileIni.SetIniKeyValue("地址：" + cardAddr, "ColorStyle", ledinfo.ColorStyle.ToString(), path);
                 }
                 catch (Exception ex)
                 {
