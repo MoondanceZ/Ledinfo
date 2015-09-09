@@ -109,10 +109,6 @@ namespace FI.Public
         ///  蒸汽写的EXCEL文件路径
         /// </summary>
         public static string excelPath= "";
-
-        /// <summary>
-        /// 车间现场EXCEL路径, 暂时写死
-        /// </summary>
-        public static string workShopPath = "D:\\EXCEL\\车间现场.xls"; 
+        
     }
 }

@@ -137,8 +137,9 @@
     <None Include="bin\x86\Debug\KY.Fi.DCZqLQ.vshost.exe.config" />
     <None Include="bin\x86\Debug\Program.dat" />
     <None Include="bin\x86\Debug\Resources\EXCEL\制网室.xls" />
-    <None Include="bin\x86\Debug\Resources\EXCEL\助剂室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\化验室.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\后整理助剂.xls" />
+    <None Include="bin\x86\Debug\Resources\EXCEL\助剂室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\描稿室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\整装室.xls" />
     <None Include="bin\x86\Debug\Resources\EXCEL\调浆室.xls" />
@@ -230,8 +231,6 @@
     <Content Include="bin\x86\Debug\KY.Fi.DCZqLQ.pdb" />
     <Content Include="bin\x86\Debug\KY.Fi.DCZqLQ.vshost.exe" />
     <Content Include="bin\x86\Debug\log\errolog.txt" />
-    <Content Include="bin\x86\Debug\Microsoft.Office.Interop.Excel.dll" />
-    <Content Include="bin\x86\Debug\Microsoft.Office.Interop.Word.dll" />
     <Content Include="bin\x86\Debug\Resources\DataFile.xml" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\H.jpg" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\H1.gif" />
@@ -239,6 +238,7 @@
     <Content Include="bin\x86\Debug\Resources\IMAGE\H3.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\H4.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\HHead.gif" />
+    <Content Include="bin\x86\Debug\Resources\IMAGE\HzHead.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\MHead.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\THead.gif" />
     <Content Include="bin\x86\Debug\Resources\IMAGE\W.jpg" />

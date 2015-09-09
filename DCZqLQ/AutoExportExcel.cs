@@ -558,6 +558,7 @@ namespace KY.Fi.DCZqLQ
                         cmd.CommandText = sb.ToString();
                         cmd.ExecuteNonQuery();
 
+                        //cells[count, 1].PutValue(dr["ban"].ToString());
                         //cells[count, 2].PutValue(dr["oprSumQty"].ToString());
                         //cells[count, 4].PutValue(dr["watQty"].ToString());
                         //cells[count, 6].PutValue(dr["elecQty"].ToString());
@@ -821,9 +822,9 @@ namespace KY.Fi.DCZqLQ
                         DataRow dr = dtZzs.Rows[i];
                         cells[count, 0].PutValue(dr["订单"].ToString());
                         cells[count, 1].PutValue(dr["花型"].ToString());
-                        cells[count, 2].PutValue(dr["整装人员"].ToString());
-                        cells[count, 3].PutValue(dr["整装完成时间"].ToString());
-                        cells[count, 4].PutValue(dr["实际完成时间"].ToString());
+                        cells[count, 2].PutValue(dr["要货量"].ToString());
+                        cells[count, 3].PutValue(dr["已开剪数量"].ToString());
+                        cells[count, 4].PutValue(dr["待开剪数量"].ToString());
                         cells[count, 5].PutValue(dr["状态"].ToString());
                         count = count + 1;
                     }
